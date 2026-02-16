@@ -1,0 +1,7 @@
+This plugin intentionally does not commit a binary icon file.
+
+If your InkyPi deployment requires an icon, add a local
+`plugins/pokemon_factoid/icon.png` image (recommended size: 64x64).
+
+Reason: Some review/diff pipelines used for this repo do not support
+binary file review.
