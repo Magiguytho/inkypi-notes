@@ -1,0 +1,13 @@
+<div class="mb-3 form-check">
+  <input type="checkbox" class="form-check-input" id="force_refresh" name="force_refresh" />
+  <label class="form-check-label" for="force_refresh">Force refresh on next run</label>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  if (typeof loadPluginSettings !== 'undefined' && loadPluginSettings && pluginSettings) {
+    const forceRefresh = String(pluginSettings.force_refresh || 'false').toLowerCase();
+    document.getElementById('force_refresh').checked = ['true', '1', 'yes', 'on'].includes(forceRefresh);
+  }
+});
+</script>
