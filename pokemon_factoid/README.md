@@ -3,6 +3,21 @@
 This repo intentionally **does not commit binary files** (like `icon.png`) because the current review/transfer pipeline rejects binaries.
 
 ## Fix for your current clone error
+
+## EXACT value to paste into InkyPi
+
+Paste **exactly** this (no extra path):
+
+```
+https://github.com/Magiguytho/inkypi-notes.git
+```
+
+Do **NOT** use:
+
+```
+https://github.com/Magiguytho/inkypi-notes/tree/main/pokemon_factoid
+```
+
 You used:
 
 - `https://github.com/Magiguytho/inkypi-notes/tree/main/pokemon_factoid`
