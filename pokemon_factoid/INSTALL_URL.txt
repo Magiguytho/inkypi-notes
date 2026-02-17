@@ -1,0 +1,5 @@
+Use this repository URL in InkyPi third-party installer:
+https://github.com/Magiguytho/inkypi-notes.git
+
+Do not use folder webpage URLs such as:
+https://github.com/Magiguytho/inkypi-notes/tree/main/pokemon_factoid

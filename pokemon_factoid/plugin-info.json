@@ -1,5 +1,6 @@
 {
   "display_name": "Pokémon Factoid (5 min)",
   "id": "pokemon_factoid",
-  "class": "PokemonFactoid"
+  "class": "PokemonFactoid",
+  "repository": "https://github.com/Magiguytho/inkypi-notes.git"
 }
